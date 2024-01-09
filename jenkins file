@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('dev branch') {
+        stage('hot branch') {
             steps {
-                sh 'echo "This is dev branch code"'
+                sh 'echo "This is hot branch code"'
             }
         }
         stage('sprint1') {
